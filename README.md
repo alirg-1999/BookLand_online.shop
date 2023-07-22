@@ -14,8 +14,8 @@
 ## Frontend Contents
 
 - [Nodejs](https://nodejs.org)
-- [Nextjs](https://react.dev/) The React Framework for the Web
-- [TailwindCss](https://chakra-ui.com/) Rapidly build modern websites without ever leaving your HTML.
+- [Nextjs](https://nextjs.org/) The React Framework for the Web
+- [TailwindCss](https://tailwindcss.com/) Rapidly build modern websites without ever leaving your HTML.
 - [React-icons](https://react-icons.github.io/react-icons/) popular icons in your React projects easily with react-icons
 - [Framer-Motion](https://www.framer.com/motion/) Framer Motion animation library for Reactjs
 - [Axios](https://axios-http.com/docs/intro) Axios is a promise-based HTTP Client for node.js and the browser
