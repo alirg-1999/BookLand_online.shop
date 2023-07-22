@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const Api = axios.create({
-  baseURL: "Your API SERVER",
+  baseURL: "http://localhost:8000",
 });
 
 export const LoginApi = (data) => {

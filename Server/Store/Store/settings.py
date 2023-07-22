@@ -8,7 +8,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # Quick-start development settings - unsuitable for production
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = "YOUR SECURITY CODE"
+SECRET_KEY = 'django-insecure-(u=p8^9=e+y&req+fkduh^p5s8^wyb!)9i)c0+c*19jscj+z9_'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -18,7 +18,10 @@ ALLOWED_HOSTS = []
 CORS_ORIGIN_ALLOW_ALL = False
 
 CORS_ORIGIN_WHITELIST = [
-        """Allow host in CORS"""
+    'http://localhost:5173',
+    'http://127.0.0.1:5173',
+    'http://localhost:3000',
+    'http://127.0.0.1:3000'
 ]
 CORS_ALLOW_CREDENTIALS = True
 
@@ -91,7 +94,10 @@ WSGI_APPLICATION = 'Store.wsgi.application'
 # Database
 
 DATABASES = {
- """your Database config"""
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
+    }
 }
 
 
